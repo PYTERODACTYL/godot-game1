@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://14tf13kg2dha"]
+
+[ext_resource type="PackedScene" uid="uid://ba5qfld1tmyd2" path="res://models/Katana.glb" id="1_n6lt2"]
+[ext_resource type="Script" path="res://objects/katana.gd" id="2_uv2e1"]
+
+[node name="Katana" instance=ExtResource("1_n6lt2")]
+script = ExtResource("2_uv2e1")
+
+[node name="Area3D" parent="Katana_Mesh" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00535989, 0.0152805, -0.00387287)
+
+[node name="CollisionShape3D" parent="Katana_Mesh/Area3D" index="0"]
+transform = Transform3D(1, 0, 0, 0, 0.990202, 0.13964, 0, -0.13964, 0.990202, -0.00233817, 5.65789, 0.612739)
+
+[connection signal="body_entered" from="Katana_Mesh/Area3D" to="." method="_on_area_3d_body_entered"]

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://yu2sm37epatd"
+path="res://.godot/imported/detail_awningWide.obj-98d71ebc04b00934f98d4f8c408ca4bc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/detail_awningWide.obj-98d71ebc04b00934f98d4f8c408ca4bc.mesh"]
+
+source_file="res://models/Mapa/detail_awningWide.obj"
+dest_files=["res://.godot/imported/detail_awningWide.obj-98d71ebc04b00934f98d4f8c408ca4bc.mesh", "res://.godot/imported/detail_awningWide.obj-98d71ebc04b00934f98d4f8c408ca4bc.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

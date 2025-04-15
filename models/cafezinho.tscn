@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://d10kbb7ot0xdj"]
+
+[ext_resource type="PackedScene" uid="uid://b36ilelhwn4q0" path="res://models/cupTea.glb" id="1_3oeg7"]
+[ext_resource type="Script" path="res://cafezinho.gd" id="2_4jl7w"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_qbasl"]
+radius = 0.8
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_f1k4v"]
+size = Vector3(0.394524, 0.417995, 0.411359)
+
+[node name="cafezinho" instance=ExtResource("1_3oeg7")]
+script = ExtResource("2_4jl7w")
+
+[node name="Area3D" type="Area3D" parent="cupTea2" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="cupTea2/Area3D" index="0"]
+shape = SubResource("SphereShape3D_qbasl")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." index="1"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0"]
+shape = SubResource("BoxShape3D_f1k4v")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." index="2"]
+light_color = Color(1, 1, 0, 1)
+light_energy = 2.131
+
+[connection signal="body_entered" from="cupTea2/Area3D" to="." method="_on_area_3d_body_entered"]

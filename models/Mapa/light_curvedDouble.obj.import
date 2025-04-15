@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bd3v48h2rof5o"
+path="res://.godot/imported/light_curvedDouble.obj-ae30f34621cbe3b872cbb957a2b7173c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/light_curvedDouble.obj-ae30f34621cbe3b872cbb957a2b7173c.mesh"]
+
+source_file="res://models/Mapa/light_curvedDouble.obj"
+dest_files=["res://.godot/imported/light_curvedDouble.obj-ae30f34621cbe3b872cbb957a2b7173c.mesh", "res://.godot/imported/light_curvedDouble.obj-ae30f34621cbe3b872cbb957a2b7173c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

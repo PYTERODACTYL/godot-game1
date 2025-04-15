@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bvc3s2er1bxhd"
+path="res://.godot/imported/path_tilesShort.obj-32c84983af360f3870141c15ce4062eb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/path_tilesShort.obj-32c84983af360f3870141c15ce4062eb.mesh"]
+
+source_file="res://models/Mapa/path_tilesShort.obj"
+dest_files=["res://.godot/imported/path_tilesShort.obj-32c84983af360f3870141c15ce4062eb.mesh", "res://.godot/imported/path_tilesShort.obj-32c84983af360f3870141c15ce4062eb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

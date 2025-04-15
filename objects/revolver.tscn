@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://1ds0ivyy004o"]
+
+[ext_resource type="PackedScene" uid="uid://dfg6aj5pdb8ew" path="res://models/Revolver.glb" id="1_8ksu8"]
+[ext_resource type="Script" path="res://objects/revolver.gd" id="2_a2gqy"]
+
+[node name="Revolver" instance=ExtResource("1_8ksu8")]
+script = ExtResource("2_a2gqy")
+
+[node name="Bullets" parent="Revovler_Magnum/Cylinder_Arm/Revolving_Cylinder" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 1.42109e-14, 0, -1.42109e-14, 1, 0, 0, 0)
+
+[node name="RayCast3D" type="RayCast3D" parent="." index="1"]
+transform = Transform3D(0.34185, 0, 0, 0, 0.101866, 0, 0, 0, 0.370529, -0.000364993, 0.0635573, -0.114678)
+target_position = Vector3(0, 0, -100)

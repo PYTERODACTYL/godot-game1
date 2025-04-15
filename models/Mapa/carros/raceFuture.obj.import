@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d2rnbdb4ve0au"
+path="res://.godot/imported/raceFuture.obj-c3a8757a9e3301f19faecd15d28fc0bb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/raceFuture.obj-c3a8757a9e3301f19faecd15d28fc0bb.mesh"]
+
+source_file="res://models/Mapa/carros/raceFuture.obj"
+dest_files=["res://.godot/imported/raceFuture.obj-c3a8757a9e3301f19faecd15d28fc0bb.mesh", "res://.godot/imported/raceFuture.obj-c3a8757a9e3301f19faecd15d28fc0bb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

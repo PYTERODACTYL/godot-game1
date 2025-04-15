@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ddbqr0gxxwsyk"
+path="res://.godot/imported/detail_umbrellaDetailed.obj-2f0f4e6ea0fdeeeeed01dcf31291d9fd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/detail_umbrellaDetailed.obj-2f0f4e6ea0fdeeeeed01dcf31291d9fd.mesh"]
+
+source_file="res://models/Mapa/detail_umbrellaDetailed.obj"
+dest_files=["res://.godot/imported/detail_umbrellaDetailed.obj-2f0f4e6ea0fdeeeeed01dcf31291d9fd.mesh", "res://.godot/imported/detail_umbrellaDetailed.obj-2f0f4e6ea0fdeeeeed01dcf31291d9fd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

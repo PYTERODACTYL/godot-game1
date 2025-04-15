@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bv5g2l4vcxftg"
+path="res://.godot/imported/road_roundabout.obj-101150277fd3d1e068ae0843bc64d142.mesh"
+
+[deps]
+
+files=["res://.godot/imported/road_roundabout.obj-101150277fd3d1e068ae0843bc64d142.mesh"]
+
+source_file="res://models/Mapa/road_roundabout.obj"
+dest_files=["res://.godot/imported/road_roundabout.obj-101150277fd3d1e068ae0843bc64d142.mesh", "res://.godot/imported/road_roundabout.obj-101150277fd3d1e068ae0843bc64d142.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bgi6m136uw1g8"
+path="res://.godot/imported/tree_shrub.obj-04d9ccb78662da7fd0c6e857ff30a266.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tree_shrub.obj-04d9ccb78662da7fd0c6e857ff30a266.mesh"]
+
+source_file="res://models/Mapa/retro/tree_shrub.obj"
+dest_files=["res://.godot/imported/tree_shrub.obj-04d9ccb78662da7fd0c6e857ff30a266.mesh", "res://.godot/imported/tree_shrub.obj-04d9ccb78662da7fd0c6e857ff30a266.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

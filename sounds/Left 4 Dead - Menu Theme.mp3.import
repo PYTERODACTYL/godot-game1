@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c8kc5vlrs21ia"
+path="res://.godot/imported/Left 4 Dead - Menu Theme.mp3-df53eb52706be0d36cd8fddf6f8b04be.mp3str"
+
+[deps]
+
+source_file="res://sounds/Left 4 Dead - Menu Theme.mp3"
+dest_files=["res://.godot/imported/Left 4 Dead - Menu Theme.mp3-df53eb52706be0d36cd8fddf6f8b04be.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

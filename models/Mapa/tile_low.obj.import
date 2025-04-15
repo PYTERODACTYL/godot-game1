@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bfv2b0cc088np"
+path="res://.godot/imported/tile_low.obj-fbb2df7d9318a4b8f904cd9fee903a4c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tile_low.obj-fbb2df7d9318a4b8f904cd9fee903a4c.mesh"]
+
+source_file="res://models/Mapa/tile_low.obj"
+dest_files=["res://.godot/imported/tile_low.obj-fbb2df7d9318a4b8f904cd9fee903a4c.mesh", "res://.godot/imported/tile_low.obj-fbb2df7d9318a4b8f904cd9fee903a4c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://e534eo5sa50t"
+path="res://.godot/imported/tile120.obj-679c42c51d6772e55305d06ad0bd6091.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tile120.obj-679c42c51d6772e55305d06ad0bd6091.mesh"]
+
+source_file="res://models/Mapa/estradas/tile120.obj"
+dest_files=["res://.godot/imported/tile120.obj-679c42c51d6772e55305d06ad0bd6091.mesh", "res://.godot/imported/tile120.obj-679c42c51d6772e55305d06ad0bd6091.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

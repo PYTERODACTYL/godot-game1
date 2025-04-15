@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cm63oq3vvt6uq"
+path="res://.godot/imported/detailLight_double.obj-bb59b1f5d714b9fa1830444a92f9adad.mesh"
+
+[deps]
+
+files=["res://.godot/imported/detailLight_double.obj-bb59b1f5d714b9fa1830444a92f9adad.mesh"]
+
+source_file="res://models/Mapa/retro/detailLight_double.obj"
+dest_files=["res://.godot/imported/detailLight_double.obj-bb59b1f5d714b9fa1830444a92f9adad.mesh", "res://.godot/imported/detailLight_double.obj-bb59b1f5d714b9fa1830444a92f9adad.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

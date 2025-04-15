@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://db80kdb142n4y"
+path="res://.godot/imported/small_buildingA.obj-b77c2fe724c202cccaea9a1f9816bd42.mesh"
+
+[deps]
+
+files=["res://.godot/imported/small_buildingA.obj-b77c2fe724c202cccaea9a1f9816bd42.mesh"]
+
+source_file="res://models/Mapa/small_buildingA.obj"
+dest_files=["res://.godot/imported/small_buildingA.obj-b77c2fe724c202cccaea9a1f9816bd42.mesh", "res://.godot/imported/small_buildingA.obj-b77c2fe724c202cccaea9a1f9816bd42.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

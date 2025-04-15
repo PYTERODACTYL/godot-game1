@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dogrwq20rn0gj"
+path="res://.godot/imported/road_sideBarrier.obj-1904fd6f958bd8af6f674f027dd83875.mesh"
+
+[deps]
+
+files=["res://.godot/imported/road_sideBarrier.obj-1904fd6f958bd8af6f674f027dd83875.mesh"]
+
+source_file="res://models/Mapa/road_sideBarrier.obj"
+dest_files=["res://.godot/imported/road_sideBarrier.obj-1904fd6f958bd8af6f674f027dd83875.mesh", "res://.godot/imported/road_sideBarrier.obj-1904fd6f958bd8af6f674f027dd83875.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

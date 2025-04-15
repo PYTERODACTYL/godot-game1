@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dnvnmm72f6uuk"
+path="res://.godot/imported/road_slantCurveBarrier.obj-6ba5be9433fc5ee62c894d23b58bfa6e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/road_slantCurveBarrier.obj-6ba5be9433fc5ee62c894d23b58bfa6e.mesh"]
+
+source_file="res://models/Mapa/road_slantCurveBarrier.obj"
+dest_files=["res://.godot/imported/road_slantCurveBarrier.obj-6ba5be9433fc5ee62c894d23b58bfa6e.mesh", "res://.godot/imported/road_slantCurveBarrier.obj-6ba5be9433fc5ee62c894d23b58bfa6e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

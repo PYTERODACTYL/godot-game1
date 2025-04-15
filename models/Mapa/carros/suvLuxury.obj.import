@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dtre7av03ckpd"
+path="res://.godot/imported/suvLuxury.obj-aaf105622a685a000de76e78e2e02865.mesh"
+
+[deps]
+
+files=["res://.godot/imported/suvLuxury.obj-aaf105622a685a000de76e78e2e02865.mesh"]
+
+source_file="res://models/Mapa/carros/suvLuxury.obj"
+dest_files=["res://.godot/imported/suvLuxury.obj-aaf105622a685a000de76e78e2e02865.mesh", "res://.godot/imported/suvLuxury.obj-aaf105622a685a000de76e78e2e02865.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

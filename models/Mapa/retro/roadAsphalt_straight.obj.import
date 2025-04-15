@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b5nhphpmurkon"
+path="res://.godot/imported/roadAsphalt_straight.obj-1482bd0cb232ec8a2187552fcd9b0c54.mesh"
+
+[deps]
+
+files=["res://.godot/imported/roadAsphalt_straight.obj-1482bd0cb232ec8a2187552fcd9b0c54.mesh"]
+
+source_file="res://models/Mapa/retro/roadAsphalt_straight.obj"
+dest_files=["res://.godot/imported/roadAsphalt_straight.obj-1482bd0cb232ec8a2187552fcd9b0c54.mesh", "res://.godot/imported/roadAsphalt_straight.obj-1482bd0cb232ec8a2187552fcd9b0c54.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://xtjk6khcnmyr"
+path="res://.godot/imported/wallB_flatGarage.obj-fde151038f7944233d19d1385497c477.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wallB_flatGarage.obj-fde151038f7944233d19d1385497c477.mesh"]
+
+source_file="res://models/Mapa/retro/wallB_flatGarage.obj"
+dest_files=["res://.godot/imported/wallB_flatGarage.obj-fde151038f7944233d19d1385497c477.mesh", "res://.godot/imported/wallB_flatGarage.obj-fde151038f7944233d19d1385497c477.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

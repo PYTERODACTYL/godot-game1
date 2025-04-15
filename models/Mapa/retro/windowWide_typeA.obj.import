@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d36tnt2tc8ohn"
+path="res://.godot/imported/windowWide_typeA.obj-c22008cf45f311c4b76af00c64b207df.mesh"
+
+[deps]
+
+files=["res://.godot/imported/windowWide_typeA.obj-c22008cf45f311c4b76af00c64b207df.mesh"]
+
+source_file="res://models/Mapa/retro/windowWide_typeA.obj"
+dest_files=["res://.godot/imported/windowWide_typeA.obj-c22008cf45f311c4b76af00c64b207df.mesh", "res://.godot/imported/windowWide_typeA.obj-c22008cf45f311c4b76af00c64b207df.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

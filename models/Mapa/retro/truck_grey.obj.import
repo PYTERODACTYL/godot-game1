@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c2s578206apom"
+path="res://.godot/imported/truck_grey.obj-ed9b9588fcdc6a112fe8b942ab55c596.mesh"
+
+[deps]
+
+files=["res://.godot/imported/truck_grey.obj-ed9b9588fcdc6a112fe8b942ab55c596.mesh"]
+
+source_file="res://models/Mapa/retro/truck_grey.obj"
+dest_files=["res://.godot/imported/truck_grey.obj-ed9b9588fcdc6a112fe8b942ab55c596.mesh", "res://.godot/imported/truck_grey.obj-ed9b9588fcdc6a112fe8b942ab55c596.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

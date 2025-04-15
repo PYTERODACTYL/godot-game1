@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cqnq6m1qc0ges"
+path="res://.godot/imported/roofMetal_typeB.obj-5e2c53666eeb8574f59a6e12dcb0fa3b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/roofMetal_typeB.obj-5e2c53666eeb8574f59a6e12dcb0fa3b.mesh"]
+
+source_file="res://models/Mapa/retro/roofMetal_typeB.obj"
+dest_files=["res://.godot/imported/roofMetal_typeB.obj-5e2c53666eeb8574f59a6e12dcb0fa3b.mesh", "res://.godot/imported/roofMetal_typeB.obj-5e2c53666eeb8574f59a6e12dcb0fa3b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

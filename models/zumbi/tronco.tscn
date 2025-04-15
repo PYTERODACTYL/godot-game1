@@ -1,0 +1,117 @@
+[gd_scene load_steps=12 format=4 uid="uid://c60500sb3r6sv"]
+
+[ext_resource type="Script" path="res://models/pedaco_zumbi.gd" id="1_ctuns"]
+[ext_resource type="Texture2D" uid="uid://10yul2lj5hri" path="res://models/zumbi/Textures/colormap.png" id="1_ov8i7"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_11eas"]
+resource_name = "colormap"
+cull_mode = 2
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_ov8i7")
+texture_filter = 2
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ukdt6"]
+_surfaces = [{
+"aabb": AABB(-0.13, 0, -0.1, 0.26001, 0.26001, 0.2),
+"format": 34359742465,
+"index_count": 60,
+"index_data": PackedByteArray("AgAAAAEAAQADAAIAAQAAAAQABAAFAAEABwAGAAIAAgADAAcAAgAGAAQABAAAAAIAAQAFAAcABwADAAEACgAIAAkACQALAAoABQAEAAkACQAIAAUACgALAAYABgAHAAoABQAIAAoACgAHAAUABgALAAkACQAEAAYA"),
+"name": "colormap",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 12,
+"vertex_data": PackedByteArray("uB4FPrgehT7NzMy9uB4FPrgehT7NzMw9uB4FvrgehT7NzMy9uB4FvrgehT7NzMw9uB4FPvDteT3NzMy9uB4FPvDteT3NzMw9uB4FvvDteT3NzMy9uB4FvvDteT3NzMw9uB4FPgAAAADNzMw9uB4FPgAAAADNzMy9uB4FvgAAAADNzMw9uB4FvgAAAADNzMy9")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_4tw6e"]
+resource_name = "character-zombie_torso"
+_surfaces = [{
+"aabb": AABB(-0.13, 0, -0.1, 0.26001, 0.26001, 0.2),
+"attribute_data": PackedByteArray("AABYP2ZmRj8AAFg/ZmZGPwAAWD9mZkY/AABYP2ZmRj8AAFg/ZmZGPwAAWD+MlW0/AABYP2ZmRj8AAFg/jJVtPwAAWD+MlW0/AABYP2ZmRj8AAFg/jJVtPwAAWD9mZkY/AABYP4yVbT8AAFg/jJVtPwAAWD9mZkY/AABYP2ZmRj8AAFg/jJVtPwAAWD+MlW0/AABYP2ZmRj8AAFg/ZmZGPwAAwD2amTk/AADAPZqZOT8AAMA9mpk5PwAAwD2amTk/AADAPWZmBj8AAMA9mpk5PwAAwD1mZgY/AADAPZqZOT8AAMA9mpk5PwAAwD1mZgY/AADAPZqZOT8AAMA9ZmYGPwAAwD2amTk/AADAPZqZOT8AAMA9ZmYGPwAAwD1mZgY/AADAPZqZOT8AAMA9mpk5PwAAwD1mZgY/AADAPWZmBj8="),
+"format": 34359742487,
+"index_count": 60,
+"index_data": PackedByteArray("AgAAAAEAAQADAAIABgAEAAUABQAHAAYACgAIAAkACQALAAoADgAMAA0ADQAPAA4AEgAQABEAEQATABIAFgAUABUAFQAXABYAGgAYABkAGQAbABoAHgAcAB0AHQAfAB4AIgAgACEAIQAjACIAJgAkACUAJQAnACYA"),
+"material": SubResource("StandardMaterial3D_11eas"),
+"name": "colormap",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 40,
+"vertex_data": PackedByteArray("uB4FPrgehT7NzMy9uB4FPrgehT7NzMw9uB4FvrgehT7NzMy9uB4FvrgehT7NzMw9uB4FPrgehT7NzMy9uB4FPvDteT3NzMy9uB4FPrgehT7NzMw9uB4FPvDteT3NzMw9uB4FvvDteT3NzMy9uB4FvrgehT7NzMy9uB4FvvDteT3NzMw9uB4FvrgehT7NzMw9uB4FvvDteT3NzMy9uB4FPvDteT3NzMy9uB4FvrgehT7NzMy9uB4FPrgehT7NzMy9uB4FPvDteT3NzMw9uB4FvvDteT3NzMw9uB4FPrgehT7NzMw9uB4FvrgehT7NzMw9uB4FPgAAAADNzMw9uB4FPgAAAADNzMy9uB4FvgAAAADNzMw9uB4FvgAAAADNzMy9uB4FPvDteT3NzMy9uB4FPgAAAADNzMy9uB4FPvDteT3NzMw9uB4FPgAAAADNzMw9uB4FvgAAAADNzMy9uB4FvvDteT3NzMy9uB4FvgAAAADNzMw9uB4FvvDteT3NzMw9uB4FPgAAAADNzMw9uB4FvgAAAADNzMw9uB4FPvDteT3NzMw9uB4FvvDteT3NzMw9uB4FvgAAAADNzMy9uB4FPgAAAADNzMy9uB4FvvDteT3NzMy9uB4FPvDteT3NzMy9/3///wAA/7//f///AAD/v/9///8AAP+//3///wAA/7////9//////////3//////////f/////////9//////wAA/3//f/+/AAD/f/9//78AAP9//3//vwAA/3//f/+//////wAA/7//////AAD/v/////8AAP+//////wAA/7//f/9/////v/9//3////+//3//f////7//f/9/////v/9/AAD///+//38AAP///7//fwAA////v/9/AAD///+/////f/////////9//////////3//////////f/////8AAP9//3//vwAA/3//f/+/AAD/f/9//78AAP9//3//v/9//3////+//3//f////7//f/9/////v/9//3////+//////wAA/7//////AAD/v/////8AAP+//////wAA/78=")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_ukdt6")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_fwnoc"]
+size = Vector3(0.78186, 0.703003, 0.462646)
+
+[sub_resource type="Curve" id="Curve_tfipc"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(0.99999, 0), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="CurveTexture" id="CurveTexture_euwnw"]
+curve = SubResource("Curve_tfipc")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_ncc5r"]
+direction = Vector3(0, 0, 1.175)
+spread = 75.0
+scale_curve = SubResource("CurveTexture_euwnw")
+turbulence_enabled = true
+turbulence_noise_strength = 0.0
+turbulence_noise_scale = 0.0
+collision_mode = 1
+collision_friction = 0.0
+collision_bounce = 0.0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_76ywm"]
+albedo_color = Color(1, 0, 0, 1)
+
+[sub_resource type="SphereMesh" id="SphereMesh_cev6t"]
+material = SubResource("StandardMaterial3D_76ywm")
+radius = 0.02
+height = 0.04
+
+[node name="Tronco" type="RigidBody3D"]
+script = ExtResource("1_ctuns")
+
+[node name="torso" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.646087, 0, 0, 0, 0.626946, 0, 0, 0, 0.698044, 0.001816, 0.251271, -0.00251232)
+mesh = SubResource("ArrayMesh_4tw6e")
+skeleton = NodePath("")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(0.246013, 0, 0, 0, 0.238725, 0, 0, 0, 0.265797, 0.0084464, 0.345675, -0.014128)
+shape = SubResource("BoxShape3D_fwnoc")
+
+[node name="GPUParticles3D" type="GPUParticles3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0825916, 0.386643, 0)
+lifetime = 0.3
+process_material = SubResource("ParticleProcessMaterial_ncc5r")
+draw_pass_1 = SubResource("SphereMesh_cev6t")
+
+[node name="GPUParticles3D2" type="GPUParticles3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00969099, 0.402586, 0)
+lifetime = 0.3
+process_material = SubResource("ParticleProcessMaterial_ncc5r")
+draw_pass_1 = SubResource("SphereMesh_cev6t")
+
+[node name="GPUParticles3D3" type="GPUParticles3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.098966, 0.386452, 0)
+lifetime = 0.3
+process_material = SubResource("ParticleProcessMaterial_ncc5r")
+draw_pass_1 = SubResource("SphereMesh_cev6t")
+
+[node name="GPUParticles3D4" type="GPUParticles3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00374441, 0.25179, 0)
+lifetime = 0.3
+process_material = SubResource("ParticleProcessMaterial_ncc5r")
+draw_pass_1 = SubResource("SphereMesh_cev6t")
+
+[node name="PosicaoSangue" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000315078, 0.31796, 0)
+
+[node name="SpawnSangue" type="Timer" parent="."]
+wait_time = 0.5
+autostart = true
+
+[connection signal="timeout" from="SpawnSangue" to="." method="_on_spawn_sangue_timeout"]

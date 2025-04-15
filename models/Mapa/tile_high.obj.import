@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bwamilhoea4m6"
+path="res://.godot/imported/tile_high.obj-8cce5f25cf18e42435e97f5998058123.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tile_high.obj-8cce5f25cf18e42435e97f5998058123.mesh"]
+
+source_file="res://models/Mapa/tile_high.obj"
+dest_files=["res://.godot/imported/tile_high.obj-8cce5f25cf18e42435e97f5998058123.mesh", "res://.godot/imported/tile_high.obj-8cce5f25cf18e42435e97f5998058123.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

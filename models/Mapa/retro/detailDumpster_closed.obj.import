@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dmkki6frplcoi"
+path="res://.godot/imported/detailDumpster_closed.obj-2aebed41c41af642c9786119d9f7ed88.mesh"
+
+[deps]
+
+files=["res://.godot/imported/detailDumpster_closed.obj-2aebed41c41af642c9786119d9f7ed88.mesh"]
+
+source_file="res://models/Mapa/retro/detailDumpster_closed.obj"
+dest_files=["res://.godot/imported/detailDumpster_closed.obj-2aebed41c41af642c9786119d9f7ed88.mesh", "res://.godot/imported/detailDumpster_closed.obj-2aebed41c41af642c9786119d9f7ed88.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

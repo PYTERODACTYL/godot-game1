@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://chivtjv1ingtj"
+path="res://.godot/imported/wall_windowA.obj-e4000477e8e6186eed349e1ff2ab0d8c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall_windowA.obj-e4000477e8e6186eed349e1ff2ab0d8c.mesh"]
+
+source_file="res://models/Mapa/wall_windowA.obj"
+dest_files=["res://.godot/imported/wall_windowA.obj-e4000477e8e6186eed349e1ff2ab0d8c.mesh", "res://.godot/imported/wall_windowA.obj-e4000477e8e6186eed349e1ff2ab0d8c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

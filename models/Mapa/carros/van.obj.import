@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://do81bqocsd1i3"
+path="res://.godot/imported/van.obj-8fa42922b3de38cc450fce68b4ebab6d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/van.obj-8fa42922b3de38cc450fce68b4ebab6d.mesh"]
+
+source_file="res://models/Mapa/carros/van.obj"
+dest_files=["res://.godot/imported/van.obj-8fa42922b3de38cc450fce68b4ebab6d.mesh", "res://.godot/imported/van.obj-8fa42922b3de38cc450fce68b4ebab6d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

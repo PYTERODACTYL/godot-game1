@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bf66bj12xaq3g"
+path="res://.godot/imported/door_typeA.obj-7058d3fe5b611c16b266a631fbe64c5b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/door_typeA.obj-7058d3fe5b611c16b266a631fbe64c5b.mesh"]
+
+source_file="res://models/Mapa/retro/door_typeA.obj"
+dest_files=["res://.godot/imported/door_typeA.obj-7058d3fe5b611c16b266a631fbe64c5b.mesh", "res://.godot/imported/door_typeA.obj-7058d3fe5b611c16b266a631fbe64c5b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

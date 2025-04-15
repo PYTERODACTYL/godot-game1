@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cl0wj106ru4gu"
+path="res://.godot/imported/path_tilesLong.obj-225a8f296c9172a4ac97ec352e47d56e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/path_tilesLong.obj-225a8f296c9172a4ac97ec352e47d56e.mesh"]
+
+source_file="res://models/Mapa/path_tilesLong.obj"
+dest_files=["res://.godot/imported/path_tilesLong.obj-225a8f296c9172a4ac97ec352e47d56e.mesh", "res://.godot/imported/path_tilesLong.obj-225a8f296c9172a4ac97ec352e47d56e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

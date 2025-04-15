@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://10ahkrh7xisu"
+path="res://.godot/imported/roadDirt_straight.obj-0051b734decdece3d2d280aba461bbd5.mesh"
+
+[deps]
+
+files=["res://.godot/imported/roadDirt_straight.obj-0051b734decdece3d2d280aba461bbd5.mesh"]
+
+source_file="res://models/Mapa/retro/roadDirt_straight.obj"
+dest_files=["res://.godot/imported/roadDirt_straight.obj-0051b734decdece3d2d280aba461bbd5.mesh", "res://.godot/imported/roadDirt_straight.obj-0051b734decdece3d2d280aba461bbd5.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

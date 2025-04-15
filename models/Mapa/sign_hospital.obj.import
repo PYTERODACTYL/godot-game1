@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://yuoyqo8ls0ym"
+path="res://.godot/imported/sign_hospital.obj-9115c30d2c1eadc70717f25492a68a4d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/sign_hospital.obj-9115c30d2c1eadc70717f25492a68a4d.mesh"]
+
+source_file="res://models/Mapa/sign_hospital.obj"
+dest_files=["res://.godot/imported/sign_hospital.obj-9115c30d2c1eadc70717f25492a68a4d.mesh", "res://.godot/imported/sign_hospital.obj-9115c30d2c1eadc70717f25492a68a4d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

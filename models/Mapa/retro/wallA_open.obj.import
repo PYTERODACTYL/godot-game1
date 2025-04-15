@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cokcw4xlh8ipm"
+path="res://.godot/imported/wallA_open.obj-e867b1646d3c427b4b3a1e79398cd36d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wallA_open.obj-e867b1646d3c427b4b3a1e79398cd36d.mesh"]
+
+source_file="res://models/Mapa/retro/wallA_open.obj"
+dest_files=["res://.godot/imported/wallA_open.obj-e867b1646d3c427b4b3a1e79398cd36d.mesh", "res://.godot/imported/wallA_open.obj-e867b1646d3c427b4b3a1e79398cd36d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

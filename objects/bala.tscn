@@ -1,0 +1,94 @@
+[gd_scene load_steps=10 format=3 uid="uid://knw2uvq10kuk"]
+
+[ext_resource type="Script" path="res://objects/bala.gd" id="1_2x77l"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_5ygu8"]
+radius = 0.015
+height = 0.15
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_m86pv"]
+albedo_color = Color(0.780392, 0.505882, 0, 1)
+emission_enabled = true
+emission = Color(0.929412, 0.803922, 0, 1)
+emission_energy_multiplier = 16.0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ws5hs"]
+albedo_color = Color(0.745098, 0, 0, 1)
+roughness = 0.2
+emission_enabled = true
+emission = Color(0.745098, 0, 0, 1)
+refraction_scale = 0.5
+point_size = 41.2
+
+[sub_resource type="Curve" id="Curve_1k6up"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(0.987013, 0), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="CurveTexture_rqbes"]
+curve = SubResource("Curve_1k6up")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_sqskl"]
+direction = Vector3(0, 0, -1)
+spread = 25.0
+initial_velocity_min = 6.0
+initial_velocity_max = 8.0
+scale_curve = SubResource("CurveTexture_rqbes")
+collision_mode = 1
+collision_friction = 0.0
+collision_bounce = 0.0
+
+[sub_resource type="SphereMesh" id="SphereMesh_pcnlf"]
+radius = 0.02
+height = 0.04
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jvcba"]
+albedo_color = Color(0.329158, 0.329158, 0.329158, 1)
+roughness = 0.2
+emission_enabled = true
+emission = Color(0.329158, 0.329158, 0.329158, 1)
+
+[node name="Bala" type="Node3D"]
+script = ExtResource("1_2x77l")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = SubResource("CapsuleMesh_5ygu8")
+surface_material_override/0 = SubResource("StandardMaterial3D_m86pv")
+
+[node name="RayCast3D" type="RayCast3D" parent="."]
+transform = Transform3D(3.8497, 0, 0, 0, 6.56491, 0, 0, 0, 0.68665, -5.69224e-06, 1.49012e-08, 0.000935942)
+target_position = Vector3(0, 0, -0.6)
+collision_mask = 2
+collide_with_areas = true
+
+[node name="Sangue" type="GPUParticles3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.0446774)
+material_override = SubResource("StandardMaterial3D_ws5hs")
+emitting = false
+amount = 64
+one_shot = true
+explosiveness = 1.0
+fixed_fps = 60
+trail_lifetime = 2.42
+process_material = SubResource("ParticleProcessMaterial_sqskl")
+draw_pass_1 = SubResource("SphereMesh_pcnlf")
+
+[node name="Impacto" type="GPUParticles3D" parent="."]
+material_override = SubResource("StandardMaterial3D_jvcba")
+emitting = false
+amount = 12
+one_shot = true
+explosiveness = 1.0
+process_material = SubResource("ParticleProcessMaterial_sqskl")
+draw_pass_1 = SubResource("SphereMesh_pcnlf")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 10.0
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+light_color = Color(1, 1, 0, 1)
+omni_range = 0.32
+omni_attenuation = 0.378927
+omni_shadow_mode = 0
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://bwb1k415geqjh"]
+
+[ext_resource type="Texture2D" uid="uid://bv00k5i8lcvd5" path="res://sprites/sangue_chao.png" id="1_lycuw"]
+[ext_resource type="Script" path="res://scenes/sangue_chao.gd" id="2_rrqre"]
+
+[node name="Sangue" type="Decal"]
+size = Vector3(0.7, 0.15, 0.7)
+texture_albedo = ExtResource("1_lycuw")
+cull_mask = 16385
+script = ExtResource("2_rrqre")

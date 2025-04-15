@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://duoee3hhlvesh"
+path="res://.godot/imported/detail_overhang.obj-57be4f23a7ee9d46e49930506802b31e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/detail_overhang.obj-57be4f23a7ee9d46e49930506802b31e.mesh"]
+
+source_file="res://models/Mapa/detail_overhang.obj"
+dest_files=["res://.godot/imported/detail_overhang.obj-57be4f23a7ee9d46e49930506802b31e.mesh", "res://.godot/imported/detail_overhang.obj-57be4f23a7ee9d46e49930506802b31e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

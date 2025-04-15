@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://duinm5twdc2b2"
+path="res://.godot/imported/wallA_roofSlantDetailed.obj-11d4f07c0541a7f7d82104febf3059cd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wallA_roofSlantDetailed.obj-11d4f07c0541a7f7d82104febf3059cd.mesh"]
+
+source_file="res://models/Mapa/retro/wallA_roofSlantDetailed.obj"
+dest_files=["res://.godot/imported/wallA_roofSlantDetailed.obj-11d4f07c0541a7f7d82104febf3059cd.mesh", "res://.godot/imported/wallA_roofSlantDetailed.obj-11d4f07c0541a7f7d82104febf3059cd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

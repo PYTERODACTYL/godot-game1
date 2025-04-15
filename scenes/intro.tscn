@@ -1,0 +1,37 @@
+[gd_scene load_steps=4 format=3 uid="uid://bn8q5dh85ygs7"]
+
+[ext_resource type="Script" path="res://scenes/intro.gd" id="1_ipfyj"]
+[ext_resource type="Texture2D" uid="uid://c6sa8mbft46fx" path="res://sprites/pyterogames.jpg" id="2_5rs31"]
+[ext_resource type="Texture2D" uid="uid://sd7sikoe5lv1" path="res://sprites/disclaimer.jpg" id="3_mxht0"]
+
+[node name="Intro" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ipfyj")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 1287.0
+offset_bottom = 720.0
+color = Color(0, 0, 0, 1)
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 540.0
+offset_top = 270.0
+offset_right = 724.0
+offset_bottom = 454.0
+texture = ExtResource("2_5rs31")
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 9.0
+offset_right = 942.0
+offset_bottom = 519.0
+scale = Vector2(1.36334, 1.39414)
+texture = ExtResource("3_mxht0")

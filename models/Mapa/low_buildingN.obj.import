@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://lcmo81d8xro3"
+path="res://.godot/imported/low_buildingN.obj-303610cd3d7b39425aead64a0ebed06f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/low_buildingN.obj-303610cd3d7b39425aead64a0ebed06f.mesh"]
+
+source_file="res://models/Mapa/low_buildingN.obj"
+dest_files=["res://.godot/imported/low_buildingN.obj-303610cd3d7b39425aead64a0ebed06f.mesh", "res://.godot/imported/low_buildingN.obj-303610cd3d7b39425aead64a0ebed06f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

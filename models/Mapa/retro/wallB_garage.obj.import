@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c8f82uej62let"
+path="res://.godot/imported/wallB_garage.obj-f1c1e2e5fe4231861ff2198922ed68fc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wallB_garage.obj-f1c1e2e5fe4231861ff2198922ed68fc.mesh"]
+
+source_file="res://models/Mapa/retro/wallB_garage.obj"
+dest_files=["res://.godot/imported/wallB_garage.obj-f1c1e2e5fe4231861ff2198922ed68fc.mesh", "res://.godot/imported/wallB_garage.obj-f1c1e2e5fe4231861ff2198922ed68fc.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://vcq35li2u57n"
+path="res://.godot/imported/delivery.obj-ae472772cd81855ef2c81177f91ceeaa.mesh"
+
+[deps]
+
+files=["res://.godot/imported/delivery.obj-ae472772cd81855ef2c81177f91ceeaa.mesh"]
+
+source_file="res://models/Mapa/carros/delivery.obj"
+dest_files=["res://.godot/imported/delivery.obj-ae472772cd81855ef2c81177f91ceeaa.mesh", "res://.godot/imported/delivery.obj-ae472772cd81855ef2c81177f91ceeaa.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

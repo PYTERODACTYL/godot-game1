@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://q4xifclkifd0"
+path="res://.godot/imported/taxi.obj-b5444fb6343a10dcab251e813f29a782.mesh"
+
+[deps]
+
+files=["res://.godot/imported/taxi.obj-b5444fb6343a10dcab251e813f29a782.mesh"]
+
+source_file="res://models/Mapa/carros/taxi.obj"
+dest_files=["res://.godot/imported/taxi.obj-b5444fb6343a10dcab251e813f29a782.mesh", "res://.godot/imported/taxi.obj-b5444fb6343a10dcab251e813f29a782.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cmo5mtwk8r0vh"
+path="res://.godot/imported/wallSteps_typeA.obj-e967265612096dfbc845f8bd7ef0fd2b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wallSteps_typeA.obj-e967265612096dfbc845f8bd7ef0fd2b.mesh"]
+
+source_file="res://models/Mapa/retro/wallSteps_typeA.obj"
+dest_files=["res://.godot/imported/wallSteps_typeA.obj-e967265612096dfbc845f8bd7ef0fd2b.mesh", "res://.godot/imported/wallSteps_typeA.obj-e967265612096dfbc845f8bd7ef0fd2b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

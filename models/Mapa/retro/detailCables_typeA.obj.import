@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cqttw1xpfp6xq"
+path="res://.godot/imported/detailCables_typeA.obj-a7835a4e321e1ba5f9f45780580daf02.mesh"
+
+[deps]
+
+files=["res://.godot/imported/detailCables_typeA.obj-a7835a4e321e1ba5f9f45780580daf02.mesh"]
+
+source_file="res://models/Mapa/retro/detailCables_typeA.obj"
+dest_files=["res://.godot/imported/detailCables_typeA.obj-a7835a4e321e1ba5f9f45780580daf02.mesh", "res://.godot/imported/detailCables_typeA.obj-a7835a4e321e1ba5f9f45780580daf02.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

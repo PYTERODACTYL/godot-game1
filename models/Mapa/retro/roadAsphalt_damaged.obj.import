@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c88fsh10454or"
+path="res://.godot/imported/roadAsphalt_damaged.obj-865e67f4de79bcddf63c6453e81ff41b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/roadAsphalt_damaged.obj-865e67f4de79bcddf63c6453e81ff41b.mesh"]
+
+source_file="res://models/Mapa/retro/roadAsphalt_damaged.obj"
+dest_files=["res://.godot/imported/roadAsphalt_damaged.obj-865e67f4de79bcddf63c6453e81ff41b.mesh", "res://.godot/imported/roadAsphalt_damaged.obj-865e67f4de79bcddf63c6453e81ff41b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

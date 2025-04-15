@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bq451c0q3digr"
+path="res://.godot/imported/wallC_flat.obj-f0909fd191b709502b3db2317bea8347.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wallC_flat.obj-f0909fd191b709502b3db2317bea8347.mesh"]
+
+source_file="res://models/Mapa/retro/wallC_flat.obj"
+dest_files=["res://.godot/imported/wallC_flat.obj-f0909fd191b709502b3db2317bea8347.mesh", "res://.godot/imported/wallC_flat.obj-f0909fd191b709502b3db2317bea8347.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

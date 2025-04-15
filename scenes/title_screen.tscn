@@ -1,0 +1,146 @@
+[gd_scene load_steps=20 format=3 uid="uid://trd67fkoamnr"]
+
+[ext_resource type="ArrayMesh" uid="uid://nbc37c12dgfo" path="res://models/Mapa/road_curvePavement.obj" id="1_38wh2"]
+[ext_resource type="Script" path="res://scenes/title_screen.gd" id="1_pmnbv"]
+[ext_resource type="ArrayMesh" uid="uid://bipddxgrqap4i" path="res://models/Mapa/road_straight.obj" id="2_ft7s6"]
+[ext_resource type="ArrayMesh" uid="uid://4quj8to7b2vo" path="res://models/Mapa/large_buildingB.obj" id="3_wlqkr"]
+[ext_resource type="PackedScene" uid="uid://bhvqdn4gbhj3k" path="res://models/Mapa/vehicles/Coupes/Veh_Coupe_03_Blue.fbx" id="4_544gx"]
+[ext_resource type="PackedScene" uid="uid://cihakentxpss4" path="res://models/Mapa/vehicles/Pickup/Veh_Pickup_01_Red.fbx" id="5_xc46d"]
+[ext_resource type="ArrayMesh" uid="uid://db80kdb142n4y" path="res://models/Mapa/small_buildingA.obj" id="6_ercdh"]
+[ext_resource type="ArrayMesh" uid="uid://daepvilxf21ih" path="res://models/Mapa/skyscraperF.obj" id="7_0bg1a"]
+[ext_resource type="Texture2D" uid="uid://dvofy3ihpd74m" path="res://sprites/dead.png" id="8_v6ytr"]
+[ext_resource type="AudioStream" uid="uid://c8kc5vlrs21ia" path="res://sounds/Left 4 Dead - Menu Theme.mp3" id="9_f4qo4"]
+[ext_resource type="PackedScene" uid="uid://2aynv760xs4" path="res://objects/ohh_livinha_title_screen.tscn" id="11_gpnxg"]
+[ext_resource type="ArrayMesh" uid="uid://byfbf6xoas72d" path="res://models/Mapa/sign_billboard.obj" id="12_ya1ok"]
+[ext_resource type="Texture2D" uid="uid://dkp7aj80yrgeh" path="res://sprites/the.png" id="13_ospx0"]
+[ext_resource type="Texture2D" uid="uid://d0gekgrvk40wa" path="res://sprites/vs-41927.png" id="14_r2ylf"]
+[ext_resource type="ArrayMesh" uid="uid://dyqhqjpoeaqa2" path="res://models/Mapa/large_buildingF.obj" id="15_6awxb"]
+[ext_resource type="ArrayMesh" uid="uid://dpa5ebuctqx1y" path="res://models/Mapa/small_buildingD.obj" id="16_74r1l"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_s5q7o"]
+sky_top_color = Color(0.569242, 0.414638, 0.220253, 1)
+sky_horizon_color = Color(0.814194, 0.606939, 0.422381, 1)
+ground_bottom_color = Color(0.10746, 0.0875557, 0.0644339, 1)
+ground_horizon_color = Color(0.452338, 0.32634, 0.177216, 1)
+
+[sub_resource type="Sky" id="Sky_tetcn"]
+sky_material = SubResource("ProceduralSkyMaterial_s5q7o")
+
+[sub_resource type="Environment" id="Environment_o281y"]
+background_mode = 2
+sky = SubResource("Sky_tetcn")
+tonemap_mode = 2
+glow_enabled = true
+fog_light_color = Color(0.701649, 0.504096, 0.303082, 1)
+fog_light_energy = 0.7
+volumetric_fog_enabled = true
+volumetric_fog_density = 0.4
+volumetric_fog_albedo = Color(0.740339, 0.567471, 0.370071, 1)
+volumetric_fog_emission = Color(0.385745, 0.247198, 0.0174132, 1)
+volumetric_fog_emission_energy = 0.5
+volumetric_fog_detail_spread = 0.757858
+
+[node name="TitleScreen" type="Node3D"]
+script = ExtResource("1_pmnbv")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_o281y")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.702498, 0.0230644, -0.711311, -0.710893, -0.0698939, 0.699819, -0.0335755, 0.997288, 0.0654967, 0, 0, 0)
+light_color = Color(0.701201, 0.447111, 0.199652, 1)
+light_energy = 0.1
+light_volumetric_fog_energy = 6.333
+shadow_enabled = true
+
+[node name="RoadCurvePavement" type="MeshInstance3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0.973407, 0, 1.42868)
+mesh = ExtResource("1_38wh2")
+
+[node name="RoadStraight" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.510293, 0, 1.92836)
+mesh = ExtResource("2_ft7s6")
+
+[node name="LargeBuildingB" type="MeshInstance3D" parent="."]
+transform = Transform3D(1.14747, 0, 0, 0, 1.14747, 0, 0, 0, 1.14747, 1.46729, 0, 2.76418)
+mesh = ExtResource("3_wlqkr")
+
+[node name="Veh_Coupe_03_Blue" parent="." instance=ExtResource("4_544gx")]
+transform = Transform3D(0.0163711, 0.0217305, -0.232497, 0.229323, -0.0454341, 0.011901, -0.0440213, -0.228601, -0.0244661, 0.982571, 0.15419, 1.2166)
+
+[node name="Veh_Pickup_01_Red" parent="." instance=ExtResource("5_xc46d")]
+transform = Transform3D(-0.202033, -0.00102885, 0.00893706, -0.00121183, 0.202187, -0.00411869, -0.00891406, -0.00416817, -0.201993, 1.14648, 0.00340684, 1.51338)
+
+[node name="SmallBuildingA" type="MeshInstance3D" parent="."]
+transform = Transform3D(-1.07117, 0, 9.36448e-08, 0, 1.07117, 0, -9.36448e-08, 0, -1.07117, -0.193109, 0.019513, 0.810028)
+mesh = ExtResource("6_ercdh")
+
+[node name="SpotLight3D" type="SpotLight3D" parent="."]
+transform = Transform3D(0.119285, 0.0917623, 0.988611, -0.0109922, 0.995781, -0.0911015, -0.992799, 4.12754e-08, 0.11979, 0.671848, 0.0700298, 1.13299)
+light_color = Color(0.691893, 0.66991, 0.0657, 1)
+shadow_enabled = true
+spot_angle = 36.0008
+
+[node name="SkyscraperF" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.0507324, 0, -0.998712, 0, 1, 0, 0.998712, 0, 0.0507324, -1.95827, 0, 4.60596)
+mesh = ExtResource("7_0bg1a")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.35149, 8.33633, 7.31971)
+light_color = Color(0.957525, 0.320076, 0, 1)
+light_energy = 4.0
+light_volumetric_fog_energy = 10.0
+
+[node name="SpotLight3D2" type="SpotLight3D" parent="."]
+transform = Transform3D(-0.994142, 0.042997, 0.0991618, 0.0312865, 0.992667, -0.116763, -0.103455, -0.112976, -0.988197, 1.17036, 0.0369554, 0.500591)
+shadow_enabled = true
+spot_range = 1.51793
+spot_angle = 35.123
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(-0.698179, 0.101124, 0.708746, -0.179399, 0.933677, -0.309942, -0.693082, -0.343543, -0.633732, 1.57727, 0.105315, 0.836432)
+
+[node name="Decal" type="Decal" parent="."]
+transform = Transform3D(-0.0113063, 0.204988, 0, 8.96031e-09, 4.94213e-10, -0.2053, -0.204988, -0.0113063, -8.97393e-09, 0.0696691, 0.144395, 1.00354)
+size = Vector3(2, 2.52686, 2)
+texture_albedo = ExtResource("8_v6ytr")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("9_f4qo4")
+
+[node name="OhhLivinhaTitleScreen" parent="." instance=ExtResource("11_gpnxg")]
+transform = Transform3D(-1.31531e-08, 0, 0.300909, 0, 0.300909, 0, -0.300909, 0, -1.31531e-08, 1.22924, 0.229206, 1.20285)
+
+[node name="SignBillboard" type="MeshInstance3D" parent="."]
+transform = Transform3D(5.73206e-16, -0.3, 1.31134e-08, -1.31134e-08, -1.31134e-08, -0.3, 0.3, 0, -1.31134e-08, 1.69821, 0.499689, 2.25931)
+mesh = ExtResource("12_ya1ok")
+
+[node name="OmniLight3D2" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.46939, 0.437679, 2.23625)
+light_color = Color(0.889169, 0.775658, 0.0219418, 1)
+light_energy = 0.3
+
+[node name="Decal2" type="Decal" parent="."]
+transform = Transform3D(-0.127893, -4.54639e-16, -1.11807e-08, 1.11807e-08, 2.06304e-09, -0.127893, 4.91868e-16, -0.127893, -2.06304e-09, 1.47272, 0.489928, 2.15648)
+size = Vector3(2.68945, 2, 2)
+texture_albedo = ExtResource("13_ospx0")
+
+[node name="Decal3" type="Decal" parent="."]
+transform = Transform3D(-0.0617587, 0, 5.33609e-09, -4.62119e-09, -0.0308793, -0.0534846, 2.66804e-09, -0.0534846, 0.0308793, 1.03478, 0.11018, 1.04045)
+size = Vector3(2.82312, 2, 2)
+texture_albedo = ExtResource("14_r2ylf")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+offset_right = 1278.0
+offset_bottom = 717.0
+color = Color(0, 0, 0, 1)
+
+[node name="LargeBuildingF" type="MeshInstance3D" parent="CanvasLayer"]
+transform = Transform3D(1, 0, 0, 0, 1.06255, 0, 0, 0, 1, 0.0268915, 0.0340559, 2.72198)
+mesh = ExtResource("15_6awxb")
+
+[node name="SmallBuildingD" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.38918, 0, 2.70695)
+mesh = ExtResource("16_74r1l")

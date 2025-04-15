@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d27bjefo04t6r"
+path="res://.godot/imported/wheelTruck.obj-c1edf93af311dc80aacc4023bf393deb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wheelTruck.obj-c1edf93af311dc80aacc4023bf393deb.mesh"]
+
+source_file="res://models/Mapa/carros/wheelTruck.obj"
+dest_files=["res://.godot/imported/wheelTruck.obj-c1edf93af311dc80aacc4023bf393deb.mesh", "res://.godot/imported/wheelTruck.obj-c1edf93af311dc80aacc4023bf393deb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

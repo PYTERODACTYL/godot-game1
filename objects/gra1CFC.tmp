@@ -1,0 +1,43 @@
+[gd_scene load_steps=7 format=3 uid="uid://qb0ywnavbdc"]
+
+[ext_resource type="Script" path="res://objects/granada.gd" id="1_2u7ee"]
+[ext_resource type="ArrayMesh" uid="uid://k7qfnkmd40i5" path="res://models/grenade.obj" id="1_61xgf"]
+[ext_resource type="AudioStream" uid="uid://c3gi3slu2cxim" path="res://sounds/medium-explosion-40472.mp3" id="3_j3h7b"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_72sa6"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_qp0k3"]
+
+[sub_resource type="AudioStreamRandomizer" id="AudioStreamRandomizer_cl1ki"]
+random_pitch = 2.0
+streams_count = 1
+stream_0/stream = ExtResource("3_j3h7b")
+
+[node name="Granada" type="RigidBody3D"]
+script = ExtResource("1_2u7ee")
+
+[node name="MeshGranada" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_61xgf")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(0.115723, 0, 0, 0, 0.115723, 0, 0, 0, 0.115723, 0, 0.0786597, 0)
+shape = SubResource("CapsuleShape3D_72sa6")
+
+[node name="RaioExplosao" type="Area3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RaioExplosao"]
+transform = Transform3D(4.38157, 0, 0, 0, 4.38157, 0, 0, 0, 4.38157, 0, 0, 0)
+shape = SubResource("SphereShape3D_qp0k3")
+
+[node name="Pavio" type="Timer" parent="."]
+wait_time = 2.0
+autostart = true
+
+[node name="SomExplosao" type="AudioStreamPlayer3D" parent="."]
+stream = SubResource("AudioStreamRandomizer_cl1ki")
+unit_size = 4.0
+
+[node name="PosicaoGranada" type="Node3D" parent="."]
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="timeout" from="Pavio" to="." method="_on_pavio_timeout"]

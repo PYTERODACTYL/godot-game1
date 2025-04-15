@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bny7vxskavvv3"
+path="res://.godot/imported/tree_large.obj-fd8cb5487a73a58c9b10d5c37c72185e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tree_large.obj-fd8cb5487a73a58c9b10d5c37c72185e.mesh"]
+
+source_file="res://models/Mapa/retro/tree_large.obj"
+dest_files=["res://.godot/imported/tree_large.obj-fd8cb5487a73a58c9b10d5c37c72185e.mesh", "res://.godot/imported/tree_large.obj-fd8cb5487a73a58c9b10d5c37c72185e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cnl4q17ctdx8i"
+path="res://.godot/imported/road_side.obj-f13ae021a5c91f076a905d7d13f26433.mesh"
+
+[deps]
+
+files=["res://.godot/imported/road_side.obj-f13ae021a5c91f076a905d7d13f26433.mesh"]
+
+source_file="res://models/Mapa/road_side.obj"
+dest_files=["res://.godot/imported/road_side.obj-f13ae021a5c91f076a905d7d13f26433.mesh", "res://.godot/imported/road_side.obj-f13ae021a5c91f076a905d7d13f26433.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

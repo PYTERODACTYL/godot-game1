@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cdgdni6g8hmjy"
+path="res://.godot/imported/construction_pylon.obj-025381594c542f621e800be41906973b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/construction_pylon.obj-025381594c542f621e800be41906973b.mesh"]
+
+source_file="res://models/Mapa/construction_pylon.obj"
+dest_files=["res://.godot/imported/construction_pylon.obj-025381594c542f621e800be41906973b.mesh", "res://.godot/imported/construction_pylon.obj-025381594c542f621e800be41906973b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

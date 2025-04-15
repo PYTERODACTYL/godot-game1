@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ddr6ie1ar4pfi"
+path="res://.godot/imported/low_wideB.obj-838cfa9eaf5dc67e7576b3ee0c51934b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/low_wideB.obj-838cfa9eaf5dc67e7576b3ee0c51934b.mesh"]
+
+source_file="res://models/Mapa/low_wideB.obj"
+dest_files=["res://.godot/imported/low_wideB.obj-838cfa9eaf5dc67e7576b3ee0c51934b.mesh", "res://.godot/imported/low_wideB.obj-838cfa9eaf5dc67e7576b3ee0c51934b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
